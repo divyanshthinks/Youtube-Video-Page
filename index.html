@@ -2,11 +2,19 @@
 <html>
     <head>
 <style>
+    body {
+        background-color: yellow;
+    }
     #search-bar {
         position: absolute;
         width: 600px;
         right: 500px;
         border-width: 5px;
+    }
+    #video {
+        position: absolute;
+        top: 200px;
+        left: 350px;
     }
 </style>
     </head>
@@ -15,5 +23,6 @@
         <label for = "search-bar">  </label>
        <input type = "text" id = "search-bar" placeholder = "Search">
        </section> 
+       <iframe id = "video" width="560" height="315" src="https://www.youtube.com/embed/_5vT0PuYOhg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </body>
 </html>
